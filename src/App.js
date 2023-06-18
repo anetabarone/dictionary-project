@@ -10,10 +10,17 @@ export default function App() {
           <img src={logo} className="App-logo img-fluid" alt="logo" />
         </header>
         <main>
+          <p>Search an English word in the dictionary:</p>
+
           <Dictionary />
         </main>
         <footer className="App-footer">
-          <smaller>Coded by Aneta Barone</smaller>
+          <smaller>
+            Coded by Aneta Barone.{" "}
+            <a href="https://github.com/anetabarone/dictionary-project">
+              See the source on GitHub.
+            </a>
+          </smaller>
         </footer>
       </div>
     </div>
