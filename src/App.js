@@ -12,7 +12,7 @@ export default function App() {
         <main>
           <p>Search an English word in the dictionary:</p>
 
-          <Dictionary />
+          <Dictionary defaultKeyword="cocktail" />
         </main>
         <footer className="App-footer">
           <smaller>
